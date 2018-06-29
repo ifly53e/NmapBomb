@@ -1,0 +1,88 @@
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sA -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sA -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sA -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sA -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sS -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sS -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sS -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sS -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sZ -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sZ -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sZ -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sZ -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sO -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sO -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sO -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sO -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGACKPSHRSTSYNFIN -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGACKPSHRSTSYNFIN -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGACKPSHRSTSYNFIN -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGACKPSHRSTSYNFIN -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGACK -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGACK -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGACK -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGACK -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGPSHSYN -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGPSHSYN -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGPSHSYN -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGPSHSYN -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGRSTFIN -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGRSTFIN -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGRSTFIN -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGRSTFIN -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags ACKPSHFIN -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags ACKPSHFIN -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags ACKPSHFIN -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags ACKPSHFIN -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags ACKRSTSYN -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags ACKRSTSYN -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags ACKRSTSYN -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags PSHRST -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags PSHRST -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags ACKRSTSYN -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags PSHRST -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags PSHRST -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags SYNFIN -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags SYNFIN -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags SYNFIN -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags SYNFIN -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags PSHRSTSYNFIN -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags PSHRSTSYNFIN -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags PSHRSTSYNFIN -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags PSHRSTSYNFIN -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGACKSYNFIN -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGACKSYNFIN -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGACKSYNFIN -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGACKSYNFIN -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGACKPSHRST -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGACKPSHRST -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGACKPSHRST -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  --scanflags URGACKPSHRST -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sY -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sY -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sY -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sY -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sM -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sM -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sM -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sM -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sN -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sN -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sN -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sN -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sF -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sF -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sF -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sF -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sX -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sX -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sX -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sX -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sW -ttl 25 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sW -ttl 50 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sW -ttl 25 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sW -ttl 50 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sU -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sU -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sU -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sU -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml

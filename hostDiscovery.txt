@@ -1,0 +1,24 @@
+nmap $TARGET -sn -$TIME  -PS$DEFAULT_TCP_PORTS -PE -PO1,2,4,16,17,132 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PS$DEFAULT_TCP_PORTS -PE -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PS$DEFAULT_TCP_PORTS -PP -PO1,2,4,16,17,132 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PS$DEFAULT_TCP_PORTS -PP -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PS$DEFAULT_TCP_PORTS -PM -PO1,2,4,16,17,132 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PS$DEFAULT_TCP_PORTS -PM -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PY$DEFAULT_TCP_PORTS -PE -PO1,2,4,16,17,132 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PY$DEFAULT_TCP_PORTS -PE -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PY$DEFAULT_TCP_PORTS -PP -PO1,2,4,16,17,132 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PY$DEFAULT_TCP_PORTS -PP -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PY$DEFAULT_TCP_PORTS -PM -PO1,2,4,16,17,132 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PY$DEFAULT_TCP_PORTS -PM -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PU$UNUSED_UDP_PORT -PE -PO1,2,4,16,17,132 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PU$UNUSED_UDP_PORT -PE -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PU$UNUSED_UDP_PORT -PP -PO1,2,4,16,17,132 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PU$UNUSED_UDP_PORT -PP -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PU$UNUSED_UDP_PORT -PM -PO1,2,4,16,17,132 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PU$UNUSED_UDP_PORT -PM -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PA$DEFAULT_TCP_PORTS -PE -PO1,2,4,16,17,132 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PA$DEFAULT_TCP_PORTS -PE -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PA$DEFAULT_TCP_PORTS -PP -PO1,2,4,16,17,132 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PA$DEFAULT_TCP_PORTS -PP -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PA$DEFAULT_TCP_PORTS -PM -PO1,2,4,16,17,132 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap $TARGET -sn -$TIME  -PA$DEFAULT_TCP_PORTS -PM -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
