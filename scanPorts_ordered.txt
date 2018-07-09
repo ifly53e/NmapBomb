@@ -6,6 +6,10 @@ nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sS -ttl 25 -f --data-length 0 -oX 
 nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sS -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
 nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sS -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
 nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sS -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sT -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sT -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sT -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
+nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sT -ttl 50 --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
 nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sZ -ttl 25 -f --data-length 0 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
 nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sZ -ttl 25 --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
 nmap -iL sorted.txt -"$TIME" -Pn -O -sC -sV  -sZ -ttl 50 -f --data-length 128 -oX "$FILE"_$(date +'%FT%H%M%S%3N').xml
