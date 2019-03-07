@@ -1,5 +1,5 @@
 # NmapBomb
-Combinatorial Test Configurations for Nmap to maximize the chances of discovering hosts and ports in a subnet.
+Combinatorial Test Configurations for Nmap to maximize the chances of discovering hosts and ports in a subnet.  Why?  Because I could be as noisy as I needed to be and I wanted to ensure I did not miss anything.
 
 ## Install and Usage
 - Copy files to the same directory
