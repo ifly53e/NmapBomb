@@ -16,7 +16,7 @@ Defaults are:
 ## What does the NmapBomb do?
 Nmapbomb is a bash script that:
 - Runs all three way combinations of all ping scans for Host Discovery
-- Runs all three way combinations of all port scanning techniques except -sI (Zombie) and -b (FPT bounce scan).
+- Runs all three way combinations of all port scanning techniques on discovered hosts except -sI (Zombie) and -b (FPT bounce scan).
 - Runs three way combinations of TCP flags for custom port scanning techniques.
 - Saves all scans as xml in a unique folder.
 - Opens the folder of scan files with Zenmap for analysis.
