@@ -116,7 +116,7 @@ fi
 PORT1=""
 
 LINES1=$(wc -l ../hostDiscovery.txt | cut -d " " -f1)
-LINES2=$(wc -l ../scanPorts.txt | cut -d " " -f1)
+LINES2=$(wc -l ../scanPorts_ordered.txt | cut -d " " -f1)
 TOTAL_LINES=$(( $LINES1 + $LINES2 ))
 
 SCAN_NUM=0
